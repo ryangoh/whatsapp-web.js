@@ -1,17 +1,4 @@
-<div align="center">
-    <br />
-    <p>
-        <a href="https://wwebjs.dev"><img src="https://github.com/wwebjs/logos/blob/main/4_Full%20Logo%20Lockup_Small/small_banner_blue.png?raw=true" title="whatsapp-web.js" alt="WWebJS Website" width="500" /></a>
-    </p>
-    <br />
-    <p>
-		<a href="https://www.npmjs.com/package/whatsapp-web.js"><img src="https://img.shields.io/npm/v/whatsapp-web.js.svg" alt="npm" /></a>
-        <a href="https://depfu.com/github/pedroslopez/whatsapp-web.js?project_id=9765"><img src="https://badges.depfu.com/badges/4a65a0de96ece65fdf39e294e0c8dcba/overview.svg" alt="Depfu" /></a>
-        <img src="https://img.shields.io/badge/WhatsApp_Web-2.2346.52-brightgreen.svg" alt="WhatsApp_Web 2.2346.52" />
-        <a href="https://discord.gg/H7DqQs4"><img src="https://img.shields.io/discord/698610475432411196.svg?logo=discord" alt="Discord server" /></a>
-	</p>
-    <br />
-</div>
+[![npm](https://img.shields.io/npm/v/whatsapp-web.js.svg)](https://www.npmjs.com/package/whatsapp-web.js) [![Depfu](https://badges.depfu.com/badges/4a65a0de96ece65fdf39e294e0c8dcba/overview.svg)](https://depfu.com/github/pedroslopez/whatsapp-web.js?project_id=9765) ![WhatsApp_Web 2.2412.51](https://img.shields.io/badge/WhatsApp_Web-2.2412.51-brightgreen.svg) [![Discord Chat](https://img.shields.io/discord/698610475432411196.svg?logo=discord)](https://discord.gg/H7DqQs4)
 
 ## About
 **A WhatsApp API client that connects through the WhatsApp Web browser app**
@@ -91,7 +78,7 @@ client.on('message', msg => {
 client.initialize();
 ```
 
-Take a look at [example.js][examples] for another examples with additional use cases.  
+Take a look at [example.js][examples] for another examples with additional use cases.
 For further details on saving and restoring sessions, explore the provided [Authentication Strategies][auth-strategies].
 
 
@@ -108,9 +95,9 @@ For further details on saving and restoring sessions, explore the provided [Auth
 | Receive media (images/audio/video/documents)  | ✅  |
 | Send contact cards | ✅ |
 | Send location | ✅ |
-| Send buttons | ❌  [(DEPRECATED)][deprecated-video] |
-| Send lists | ❌  [(DEPRECATED)][deprecated-video] |
-| Receive location | ✅ | 
+| Send buttons | ❌ |
+| Send lists | ❌  [(DEPRECATED)](https://www.youtube.com/watch?v=hv1R1rLeVVE) |
+| Receive location | ✅ |
 | Message replies | ✅ |
 | Join groups by invite  | ✅ |
 | Get invite for group  | ✅ |
@@ -152,17 +139,17 @@ This project is not affiliated, associated, authorized, endorsed by, or in any w
 
 ## License
 
-Copyright 2019 Pedro S Lopez  
+Copyright 2019 Pedro S Lopez
 
-Licensed under the Apache License, Version 2.0 (the "License");  
-you may not use this project except in compliance with the License.  
-You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.  
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this project except in compliance with the License.
+You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
 
-Unless required by applicable law or agreed to in writing, software  
-distributed under the License is distributed on an "AS IS" BASIS,  
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  
-See the License for the specific language governing permissions and  
-limitations under the License.  
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 
 [website]: https://wwebjs.dev
